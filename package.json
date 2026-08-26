@@ -1,0 +1,38 @@
+{
+  "name": "ZAEEM BUG BOT",
+  "version": "1.0.0",
+  "description": "Telegram bot dengan sistem pairing WhatsApp (Baileys) per-user",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@grammyjs/runner": "^2.0.3",
+    "@hapi/boom": "^10.0.1",
+    "@zeppeliorg/wbails": "latest",
+    "@whiskeysockets/baileys": "npm:@zeppeliorg/wbails",
+    "whatsapp-rust-bridge": "^0.5.4",
+    "acorn": "^8.17.0",
+    "archiver": "^7.0.1",
+    "axios": "^1.18.1",
+    "bytenode": "^1.6.0",
+    "chalk": "^5.3.0",
+    "jimp": "^1.6.1",
+    "cheerio": "^1.2.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^10.7.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.3.0",
+    "form-data": "^4.0.6",
+    "grammy": "latest",
+    "https-proxy-agent": "^9.1.0",
+    "javascript-obfuscator": "^5.5.0",
+    "nodemailer": "^9.0.3",
+    "pino": "^9.4.0",
+    "prettier": "^3.9.5",
+    "terser": "^5.49.0",
+    "webcrack": "^2.16.0",
+    "youtube-dl-exec": "^3.1.9"
+  }
+}
